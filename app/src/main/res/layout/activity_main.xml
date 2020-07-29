@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#e6ceff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+<include layout="@layout/toolbar"
+    android:id="@+id/mCustomToolbar"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#01579b"
+        android:ellipsize="end"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:maxLines="1"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="Llegamos a los 10,000💫"
+        android:textColor="#FFFF00"
+        android:textSize="30sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Facebook" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Instagram" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Youtube" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Whatsapp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#42a5f5"
+        android:ellipsize="end"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:maxLines="1"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="Donador⭐del⭐mes:⭐Richard⭐Ortiz"
+        android:textColor="#FBEFEF"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="209dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/linea1" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="209dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/torneollaves1" />
+
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:srcCompat="@drawable/botz1" />
+        <!--    <TextView-->
+
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#58D68D"-->
+<!--        android:ellipsize="end"-->
+<!--        android:marqueeRepeatLimit="marquee_forever"-->
+<!--        android:maxLines="1"-->
+<!--        android:scrollHorizontally="true"-->
+<!--        android:singleLine="true"-->
+<!--        android:text="幕文本示例幕文本示例幕文本示例幕文本示例幕文本示例幕文本示例幕文本示例幕文本示例"-->
+<!--        android:textColor="#660099"-->
+<!--        android:textSize="30sp" />-->
+<!--    <TextView-->
+
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#000000"-->
+<!--        android:ellipsize="end"-->
+<!--        android:marqueeRepeatLimit="marquee_forever"-->
+<!--        android:maxLines="1"-->
+<!--        android:scrollHorizontally="true"-->
+<!--        android:singleLine="true"-->
+<!--        android:text="幕文本示例幕文本示例幕文本示例幕文本示例幕文本示例幕文本示例幕文本示例幕文本示例"-->
+<!--        android:textColor="#46FF09"-->
+<!--        android:textSize="30sp" />-->
+<!--    <TextView-->
+
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#000000"-->
+<!--        android:ellipsize="end"-->
+<!--        android:marqueeRepeatLimit="marquee_forever"-->
+<!--        android:maxLines="1"-->
+<!--        android:scrollHorizontally="true"-->
+<!--        android:singleLine="true"-->
+<!--        android:text="幕文本示例幕文本示例幕文本示例幕文本示例幕文本示例幕文本示例幕文本示例幕文本示例"-->
+<!--        android:textColor="#46FF09"-->
+<!--        android:textSize="30sp" />-->
+<!--    <TextView-->
+
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#000000"-->
+<!--        android:ellipsize="end"-->
+<!--        android:marqueeRepeatLimit="marquee_forever"-->
+<!--        android:maxLines="1"-->
+<!--        android:scrollHorizontally="true"-->
+<!--        android:singleLine="true"-->
+<!--        android:text="幕文本示例幕文本示例幕文本示例幕文本示例幕文本示例幕文本示例幕文本示例幕文本示例"-->
+<!--        android:textColor="#46FF09"-->
+<!--        android:textSize="30sp" />-->
+    </LinearLayout>
+</ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="94dp"
+        android:layout_height="70dp"
+        android:layout_gravity="end|center"
+        
+        android:clickable="true"
+        android:scrollbarTrackHorizontal="@drawable/ic_backup_black_24dp"
+        app:srcCompat="@drawable/botz" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
