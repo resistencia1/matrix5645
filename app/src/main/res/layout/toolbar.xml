@@ -4,6 +4,6 @@
     android:layout_height="50dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:titleTextColor="#FFFFFF"
-    android:background="@color/colorPrimary">
+    android:background="@drawable/gradient_list">
 
 </androidx.appcompat.widget.Toolbar>

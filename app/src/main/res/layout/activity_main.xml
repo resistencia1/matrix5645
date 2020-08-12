@@ -2,9 +2,10 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#e6ceff"
+    android:background="#D9BEDD"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/layout"
 
 
     tools:context=".MainActivity"
@@ -24,14 +25,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:background="#01579b"
+        android:background="#DFD7D7"
         android:ellipsize="end"
         android:marqueeRepeatLimit="marquee_forever"
         android:maxLines="1"
         android:scrollHorizontally="true"
         android:singleLine="true"
         android:text="Llegamos a los 10,000💫"
-        android:textColor="#FFFF00"
+        android:textColor="#412357"
         android:textSize="30sp" />
     <LinearLayout
         android:layout_width="match_parent"
@@ -73,7 +74,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:background="#42a5f5"
+        android:background="#412357"
         android:ellipsize="end"
         android:marqueeRepeatLimit="marquee_forever"
         android:maxLines="1"
@@ -164,7 +165,7 @@
         android:layout_width="94dp"
         android:layout_height="70dp"
         android:layout_gravity="end|center"
-        
+
         android:clickable="true"
         android:scrollbarTrackHorizontal="@drawable/ic_backup_black_24dp"
         app:srcCompat="@drawable/botz" />
